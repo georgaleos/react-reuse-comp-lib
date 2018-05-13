@@ -7,6 +7,7 @@ class ProgressBar extends React.Component {
         return this.props.percent > 50 ? 'lightgreen' : 'red';
     };
 
+    // Could remove this function and use same function from percent utils
     getWidthAsPercentOfTotalWidth = () => {
         return parseInt(this.props.width * (this.props.percent / 100), 10);
     };
