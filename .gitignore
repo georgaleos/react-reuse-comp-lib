@@ -22,3 +22,9 @@ yarn-error.log*
 .idea
 config/componentData.js
 package-lock.json
+
+# built component library
+/lib
+
+# built docs
+/docs
